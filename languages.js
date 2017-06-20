@@ -10,7 +10,7 @@ var instructionsRu = require('./languages/translations/ru.json');
 var instructionsSv = require('./languages/translations/sv.json');
 var instructionsVi = require('./languages/translations/vi.json');
 var instructionsZhHans = require('./languages/translations/zh-Hans.json');
-
+var instructionsDa = require('./languages/translations/da.json');
 
 // Create a list of supported codes
 var instructions = {
@@ -23,7 +23,8 @@ var instructions = {
     'ru': instructionsRu,
     'sv': instructionsSv,
     'vi': instructionsVi,
-    'zh-Hans': instructionsZhHans
+    'zh-Hans': instructionsZhHans,
+    'da': instructionsDa
 };
 
 module.exports = {
